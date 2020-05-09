@@ -1,0 +1,28 @@
+{
+  "homepage": "http://vindev.github.io/blog-creator",
+  "name": "blog-creator",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.9.11",
+    "@material-ui/icons": "^4.9.1",
+    "prop-types": "latest",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-markdown": "^4.3.1",
+    "react-scripts": "0.9.x"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "markdown-to-jsx": "^6.11.1",
+    "react-router-dom": "^5.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
