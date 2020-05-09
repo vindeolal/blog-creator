@@ -5,7 +5,6 @@ import Blog from "./blog/Blog";
 import {Post} from "./blog/Post";
 
 class App extends Component {
-
     render() {
         return (
             <Router>
