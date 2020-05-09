@@ -22,15 +22,18 @@ const useStyles = makeStyles((theme) => ({
 export const Post = () => {
     const classes = useStyles();
     const {dir, index} = useParams();
+
     const [postMetadata, setPostMetadata] = React.useState();
     const [content, setContent] = React.useState();
     const [loadPost, setLoadPost] = React.useState(false);
+    const [footer, setFooter] = React.useState({});
 
     const fetchPost = async () => {
         await fetchJson(`/post/postMetadata.json`).then(data => {
-            const {posts} = data;
+            const {posts, footer} = data;
             const metadata = posts[dir][index];
             setPostMetadata(metadata);
+            setFooter(footer);
             return metadata.fileName;
         }).then((filename) => fetchText(`/content/${filename}`))
             .then(content => setContent(content))
