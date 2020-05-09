@@ -35,6 +35,11 @@
         "name": "Facebook",
         "icon": "FacebookIcon",
         "link": "#"
+      },
+      {
+        "name": "Instagram",
+        "icon": "InstagramIcon",
+        "link": "#"
       }
     ]
   },

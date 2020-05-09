@@ -8,6 +8,7 @@ import Link from '@material-ui/core/Link';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
+import InstagramIcon from '@material-ui/icons/Instagram';
 
 const useStyles = makeStyles((theme) => ({
     sidebarAboutBox: {
@@ -22,7 +23,8 @@ const useStyles = makeStyles((theme) => ({
 const iconMap = {
     GitHubIcon: <GitHubIcon/>,
     FacebookIcon: <FacebookIcon/>,
-    TwitterIcon: <TwitterIcon/>
+    TwitterIcon: <TwitterIcon/>,
+    InstagramIcon: <InstagramIcon/>
 };
 
 export default function Sidebar(props) {
