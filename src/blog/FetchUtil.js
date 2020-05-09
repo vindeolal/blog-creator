@@ -1,3 +1,5 @@
-export const fetchText = (path) => fetch(path).then(res => res.text());
+import {homepage} from '../../package';
 
-export const fetchJson = (path) => fetch(path).then(res => res.json());
+export const fetchText = (path) => fetch(`${homepage}${path}`).then(res => res.text());
+
+export const fetchJson = (path) => fetch(`${homepage}${path}`).then(res => res.json());
