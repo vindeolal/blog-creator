@@ -1,0 +1,124 @@
+{
+  "header": {
+    "title": "Blog Title",
+    "description": "Sample blog description",
+    "image": "https://source.unsplash.com/random",
+    "imageText": "Sample image text",
+    "textColor": "#FFFFFF"
+  },
+  "footer": {
+    "title": "",
+    "description": "footer description",
+    "websiteName": "website",
+    "websiteURL": "#"
+  },
+  "sidebar": {
+    "title": "About",
+    "description": "Random blog description ......",
+    "archives": [
+      "February 2020",
+      "April 2020",
+      "August 2019"
+    ],
+    "social": [
+      {
+        "name": "GitHub",
+        "icon": "GitHubIcon",
+        "link": "#"
+      },
+      {
+        "name": "Twitter",
+        "icon": "TwitterIcon",
+        "link": "#"
+      },
+      {
+        "name": "Facebook",
+        "icon": "FacebookIcon",
+        "link": "#"
+      },
+      {
+        "name": "Instagram",
+        "icon": "InstagramIcon",
+        "link": "#"
+      }
+    ]
+  },
+  "posts": {
+    "April 2020": [
+      {
+        "title": "April Post 1 header",
+        "date": "01-04-2020",
+        "image": "https://source.unsplash.com/random",
+        "imageText": "Image Text",
+        "fileName": "post1.md"
+      },
+      {
+        "title": "April Post 2 header",
+        "date": "10-04-2020",
+        "image": "https://source.unsplash.com/random",
+        "imageText": "Image Text",
+        "fileName": "post2.md"
+      },
+      {
+        "title": "April Post 3 header",
+        "date": "15-04-2020",
+        "image": "https://source.unsplash.com/random",
+        "imageText": "Image Text",
+        "fileName": "post3.md"
+      }
+    ],
+    "February 2020": [
+      {
+        "title": "February 2020 1",
+        "date": "01-02-2020",
+        "image": "https://source.unsplash.com/random",
+        "imageText": "Image Text",
+        "fileName": "post4.md"
+      },
+      {
+        "title": "February 2020 2",
+        "date": "01-02-2020",
+        "image": "https://source.unsplash.com/random",
+        "imageText": "Image Text",
+        "fileName": "post5.md"
+      },
+      {
+        "title": "February 2020 3",
+        "date": "10-02-2020",
+        "image": "https://source.unsplash.com/random",
+        "imageText": "Image Text",
+        "fileName": "post6.md"
+      },
+      {
+        "title": "February 2020 4",
+        "date": "11-02-2020",
+        "image": "https://source.unsplash.com/random",
+        "imageText": "Image Text",
+        "fileName": "post7.md"
+      },
+      {
+        "title": "February 2020 5",
+        "date": "12-02-2020",
+        "image": "https://source.unsplash.com/random",
+        "imageText": "Image Text",
+        "fileName": "post8.md"
+      }
+    ],
+    "August 2019": [
+      {
+        "title": "August 2019 1",
+        "date": "15-08-2019",
+        "image": "https://source.unsplash.com/random",
+        "imageText": "Image Text",
+        "fileName": "post9.md"
+      },
+      {
+        "title": "August 2019 2",
+        "date": "20-08-2019",
+        "image": "https://source.unsplash.com/random",
+        "imageText": "Image Text",
+        "fileName": "post10.md"
+      }
+    ]
+  }
+}
