@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "gh-pages": "^2.2.0",
-    "markdown-to-jsx": "^6.11.1",
+    "markdown-to-jsx": "^6.11.4",
     "react-router-dom": "^5.1.2"
   },
   "scripts": {
